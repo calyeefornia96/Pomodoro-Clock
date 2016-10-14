@@ -1,0 +1,51 @@
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1{
+  margin: 5% 0 5% 0;
+}
+.clock{
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+.clock{
+  height: 300px;
+  width: 300px;
+  margin: 0px auto;
+  border: 2px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+}
+#config{
+  font-size: 30px;
+}
+#rest{
+  margin: 0 5% 0 0;
+  display: inline-block;
+}
+#work{
+  margin: 0 0 5% 0;
+  display: inline-block;
+}
+
+.in{
+  display: inline-block;
+}
+
+.title{
+  font-size: 60px;
+  padding: 60px 0 0 0;
+}
+
+.timer{
+  font-size: 40px;
+  padding: 10px 0 0 0;
+}
+
+.instruct{
+  font-size: 25px;
+}

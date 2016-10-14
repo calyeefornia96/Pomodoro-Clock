@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Calvin's Pomodoro Clock</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="layout.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class='container'>
+
+		  <h1>Calvin's Pomodoro</h1>
+
+		  <div id='config'>
+		    <div id='rest'>
+		      <p>Rest Length</p>
+		      <button type='button' class='minus btn btn-default in' id='minusBreak'>
+		        <span class="glyphicon glyphicon-minus in" aria-hidden="true"></span>
+		        </button>
+		      <p class='in' id='break'>5</p>
+		      <button type='button' class='plus btn btn-default in' id='plusBreak'>
+		        <span class="glyphicon glyphicon-plus in" aria-hidden="true"></span>
+		        </button>
+		    </div>
+		    <div id='work'>
+		      <p>Work Length</p>
+		      <button type='button' class='minus btn btn-primary in' id='minusWork'>
+		        <span class="glyphicon glyphicon-minus in" aria-hidden="true"></span>
+		        </button>
+		      <p class='in' id ='count'>25</p>
+		      <button type='button' class='plus btn btn-primary in' id='plusWork'>
+		        <span class="glyphicon glyphicon-plus in" aria-hidden="true"></span>
+		        </button>
+		    </div>
+		  </div>
+
+		  <div class='clock' id='grad'>
+		    <p class='title'>Session</p>
+		    <p class='timer'>25</p>
+		  </div>
+		  <p class='instruct'>To start the clock, click on it!</p>
+		  <p class='instruct'>Pause & Unpause by Clicking on it</p>
+		  <p class='instruct'>To reset, pause the clock then click on the time you desire and then click the clock!</p>
+		</div>
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
